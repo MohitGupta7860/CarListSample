@@ -8,10 +8,12 @@
 
 import UIKit
 
-class CarDealerListViewController: UIViewController {
+class DealerListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        //Testing purpose
+//        DealerDetailsWebService().getDealerData { _ in
+//        }
     }
 }
 

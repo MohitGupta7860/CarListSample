@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		3C7C4B3023E2880B003174E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B2F23E2880B003174E6 /* AppDelegate.swift */; };
 		3C7C4B3223E2880B003174E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B3123E2880B003174E6 /* SceneDelegate.swift */; };
-		3C7C4B3423E2880B003174E6 /* CarDealerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B3323E2880B003174E6 /* CarDealerListViewController.swift */; };
+		3C7C4B3423E2880B003174E6 /* DealerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B3323E2880B003174E6 /* DealerListViewController.swift */; };
 		3C7C4B3723E2880B003174E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C4B3523E2880B003174E6 /* Main.storyboard */; };
 		3C7C4B3923E2880C003174E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C4B3823E2880C003174E6 /* Assets.xcassets */; };
 		3C7C4B3C23E2880C003174E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C4B3A23E2880C003174E6 /* LaunchScreen.storyboard */; };
 		3C7C4B4723E2880C003174E6 /* CarDelaerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B4623E2880C003174E6 /* CarDelaerSampleTests.swift */; };
+		3C7C4B5623E28A56003174E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B5523E28A56003174E6 /* NetworkManager.swift */; };
+		3C7C4B5823E28AD0003174E6 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B5723E28AD0003174E6 /* EndPoint.swift */; };
+		3C7C4B5A23E28C70003174E6 /* DealerDetailsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B5923E28C70003174E6 /* DealerDetailsWebService.swift */; };
+		3C7C4B5C23E28D16003174E6 /* DealerDeatails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B5B23E28D16003174E6 /* DealerDeatails.swift */; };
+		3C7C4B5E23E298F8003174E6 /* NetworkManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B5D23E298F8003174E6 /* NetworkManagerTest.swift */; };
+		3C7C4B6023E29C45003174E6 /* GetCallResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C4B5F23E29C45003174E6 /* GetCallResponse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +36,7 @@
 		3C7C4B2C23E2880B003174E6 /* CarDelaerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarDelaerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7C4B2F23E2880B003174E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C7C4B3123E2880B003174E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C7C4B3323E2880B003174E6 /* CarDealerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDealerListViewController.swift; sourceTree = "<group>"; };
+		3C7C4B3323E2880B003174E6 /* DealerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerListViewController.swift; sourceTree = "<group>"; };
 		3C7C4B3623E2880B003174E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C7C4B3823E2880C003174E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C7C4B3B23E2880C003174E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +44,12 @@
 		3C7C4B4223E2880C003174E6 /* CarDelaerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarDelaerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7C4B4623E2880C003174E6 /* CarDelaerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDelaerSampleTests.swift; sourceTree = "<group>"; };
 		3C7C4B4823E2880C003174E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7C4B5523E28A56003174E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3C7C4B5723E28AD0003174E6 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		3C7C4B5923E28C70003174E6 /* DealerDetailsWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailsWebService.swift; sourceTree = "<group>"; };
+		3C7C4B5B23E28D16003174E6 /* DealerDeatails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDeatails.swift; sourceTree = "<group>"; };
+		3C7C4B5D23E298F8003174E6 /* NetworkManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTest.swift; sourceTree = "<group>"; };
+		3C7C4B5F23E29C45003174E6 /* GetCallResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetCallResponse.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				3C7C4B4623E2880C003174E6 /* CarDelaerSampleTests.swift */,
+				3C7C4B5D23E298F8003174E6 /* NetworkManagerTest.swift */,
 				3C7C4B4823E2880C003174E6 /* Info.plist */,
+				3C7C4B5F23E29C45003174E6 /* GetCallResponse.json */,
 			);
 			path = CarDelaerSampleTests;
 			sourceTree = "<group>";
@@ -104,7 +118,7 @@
 		3C7C4B5123E28812003174E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3C7C4B3323E2880B003174E6 /* CarDealerListViewController.swift */,
+				3C7C4B3323E2880B003174E6 /* DealerListViewController.swift */,
 				3C7C4B3523E2880B003174E6 /* Main.storyboard */,
 			);
 			path = View;
@@ -113,6 +127,9 @@
 		3C7C4B5223E28818003174E6 /* ServiceLayer */ = {
 			isa = PBXGroup;
 			children = (
+				3C7C4B5723E28AD0003174E6 /* EndPoint.swift */,
+				3C7C4B5523E28A56003174E6 /* NetworkManager.swift */,
+				3C7C4B5923E28C70003174E6 /* DealerDetailsWebService.swift */,
 			);
 			path = ServiceLayer;
 			sourceTree = "<group>";
@@ -127,6 +144,7 @@
 		3C7C4B5423E28828003174E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3C7C4B5B23E28D16003174E6 /* DealerDeatails.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7C4B6023E29C45003174E6 /* GetCallResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C7C4B3423E2880B003174E6 /* CarDealerListViewController.swift in Sources */,
+				3C7C4B5623E28A56003174E6 /* NetworkManager.swift in Sources */,
+				3C7C4B3423E2880B003174E6 /* DealerListViewController.swift in Sources */,
+				3C7C4B5C23E28D16003174E6 /* DealerDeatails.swift in Sources */,
+				3C7C4B5A23E28C70003174E6 /* DealerDetailsWebService.swift in Sources */,
+				3C7C4B5823E28AD0003174E6 /* EndPoint.swift in Sources */,
 				3C7C4B3023E2880B003174E6 /* AppDelegate.swift in Sources */,
 				3C7C4B3223E2880B003174E6 /* SceneDelegate.swift in Sources */,
 			);
@@ -242,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7C4B5E23E298F8003174E6 /* NetworkManagerTest.swift in Sources */,
 				3C7C4B4723E2880C003174E6 /* CarDelaerSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
