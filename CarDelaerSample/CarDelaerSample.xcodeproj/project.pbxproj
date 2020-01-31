@@ -24,6 +24,7 @@
 		3C7C4B6423E3CD33003174E6 /* DealerDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B6323E3CD33003174E6 /* DealerDetailsViewModelTests.swift */; };
 		3C7C4B6B23E3D337003174E6 /* DealerDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B6923E3D337003174E6 /* DealerDetailTableViewCell.swift */; };
 		3C7C4B6C23E3D337003174E6 /* DealerDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C4B6A23E3D337003174E6 /* DealerDetailTableViewCell.xib */; };
+		3C7C4B6E23E3E978003174E6 /* DealerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B6D23E3E978003174E6 /* DealerViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		3C7C4B6323E3CD33003174E6 /* DealerDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailsViewModelTests.swift; sourceTree = "<group>"; };
 		3C7C4B6923E3D337003174E6 /* DealerDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailTableViewCell.swift; sourceTree = "<group>"; };
 		3C7C4B6A23E3D337003174E6 /* DealerDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealerDetailTableViewCell.xib; sourceTree = "<group>"; };
+		3C7C4B6D23E3E978003174E6 /* DealerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				3C7C4B4823E2880C003174E6 /* Info.plist */,
 				3C7C4B5F23E29C45003174E6 /* GetCallResponse.json */,
 				3C7C4B6323E3CD33003174E6 /* DealerDetailsViewModelTests.swift */,
+				3C7C4B6D23E3E978003174E6 /* DealerViewControllerTests.swift */,
 			);
 			path = CarDelaerSampleTests;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C7C4B5E23E298F8003174E6 /* NetworkManagerTest.swift in Sources */,
+				3C7C4B6E23E3E978003174E6 /* DealerViewControllerTests.swift in Sources */,
 				3C7C4B6423E3CD33003174E6 /* DealerDetailsViewModelTests.swift in Sources */,
 				3C7C4B4723E2880C003174E6 /* CarDelaerSampleTests.swift in Sources */,
 			);

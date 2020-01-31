@@ -60,6 +60,17 @@ extension DealerListViewController: UITableViewDataSource {
         dealerDetailTableViewCell.delegate = self
         return dealerDetailTableViewCell
     }
+    
+    /*
+    func loadImageDealerCell(dealerCell: DealerDetailTableViewCell, urlString: String) {
+        let url = URL(string: urlString)
+        DispatchQueue.global().async {
+            let data = try? Data(contentsOf: url!)
+            DispatchQueue.main.async {
+                dealerCell.carImageView?.image = UIImage(data: data!)
+            }
+        }
+    } */
 }
 
 extension UIViewController: CallDelegate {
