@@ -8,8 +8,12 @@
 
 import UIKit
 
-class DealerDetailTableViewCell: UITableViewCell {
+protocol CallDelegate: AnyObject {
+    func callToDealer(phone: String)
+}
 
+class DealerDetailTableViewCell: UITableViewCell {
+    weak var delegate: CallDelegate?
     @IBOutlet weak var carImageView: UIImageView!
     @IBOutlet weak var makeYearLabel: UILabel!
     @IBOutlet weak var dealerDetailLabel: UILabel!
@@ -30,5 +34,10 @@ class DealerDetailTableViewCell: UITableViewCell {
         makeYearLabel.text = carMake
         dealerDetailLabel.text = dealerDetail
         callDealerButton.setTitle(phoneNumber, for: .normal)
+    }
+    @IBAction func callButtonClicked(_ sender: Any) {
+        if let buttonTitle = (sender as AnyObject).title(for: .normal) {
+            delegate?.callToDealer(phone: buttonTitle)
+        }
     }
 }

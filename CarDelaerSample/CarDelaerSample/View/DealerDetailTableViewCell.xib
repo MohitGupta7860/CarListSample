@@ -39,6 +39,9 @@
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="Imi-iO-XxH"/>
                         </constraints>
+                        <connections>
+                            <action selector="callButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="uya-t0-C4F"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>

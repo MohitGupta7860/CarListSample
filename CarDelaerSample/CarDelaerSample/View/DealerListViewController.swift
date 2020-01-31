@@ -57,7 +57,15 @@ extension DealerListViewController: UITableViewDataSource {
         dealerDetailTableViewCell.updateDealerCellData(carMake: carMake ,
                                                        dealerDetail: carPriceAddress,
                                                        phoneNumber: carDetail.dealer.phone)
+        dealerDetailTableViewCell.delegate = self
         return dealerDetailTableViewCell
     }
 }
 
+extension UIViewController: CallDelegate {
+    func callToDealer(phone: String) {
+        if let url = NSURL(string: "tel://\(phone)"), UIApplication.shared.canOpenURL(url as URL) {
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+}
