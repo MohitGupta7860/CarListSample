@@ -22,6 +22,8 @@
 		3C7C4B6023E29C45003174E6 /* GetCallResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C4B5F23E29C45003174E6 /* GetCallResponse.json */; };
 		3C7C4B6223E3B7B5003174E6 /* DealerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B6123E3B7B5003174E6 /* DealerDetailViewModel.swift */; };
 		3C7C4B6423E3CD33003174E6 /* DealerDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B6323E3CD33003174E6 /* DealerDetailsViewModelTests.swift */; };
+		3C7C4B6B23E3D337003174E6 /* DealerDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B6923E3D337003174E6 /* DealerDetailTableViewCell.swift */; };
+		3C7C4B6C23E3D337003174E6 /* DealerDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C4B6A23E3D337003174E6 /* DealerDetailTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		3C7C4B5F23E29C45003174E6 /* GetCallResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetCallResponse.json; sourceTree = "<group>"; };
 		3C7C4B6123E3B7B5003174E6 /* DealerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailViewModel.swift; sourceTree = "<group>"; };
 		3C7C4B6323E3CD33003174E6 /* DealerDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		3C7C4B6923E3D337003174E6 /* DealerDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailTableViewCell.swift; sourceTree = "<group>"; };
+		3C7C4B6A23E3D337003174E6 /* DealerDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealerDetailTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 			children = (
 				3C7C4B3323E2880B003174E6 /* DealerListViewController.swift */,
 				3C7C4B3523E2880B003174E6 /* Main.storyboard */,
+				3C7C4B6923E3D337003174E6 /* DealerDetailTableViewCell.swift */,
+				3C7C4B6A23E3D337003174E6 /* DealerDetailTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C7C4B3C23E2880C003174E6 /* LaunchScreen.storyboard in Resources */,
+				3C7C4B6C23E3D337003174E6 /* DealerDetailTableViewCell.xib in Resources */,
 				3C7C4B3923E2880C003174E6 /* Assets.xcassets in Resources */,
 				3C7C4B3723E2880B003174E6 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +272,7 @@
 				3C7C4B5823E28AD0003174E6 /* EndPoint.swift in Sources */,
 				3C7C4B3023E2880B003174E6 /* AppDelegate.swift in Sources */,
 				3C7C4B3223E2880B003174E6 /* SceneDelegate.swift in Sources */,
+				3C7C4B6B23E3D337003174E6 /* DealerDetailTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
