@@ -9,11 +9,20 @@
 import UIKit
 
 class DealerListViewController: UIViewController {
+    lazy var viewModel: DealerDetailViewModel = {
+        let viewModel = DealerDetailViewModel(dealerDetailsWebService: DealerDetailsWebService())
+        return viewModel
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //Testing purpose
-//        DealerDetailsWebService().getDealerData { _ in
-//        }
+        getDealerDeatails()
+    }
+    
+    func getDealerDeatails() {
+        viewModel.getDealerDetails {
+            print(self.viewModel.dealerDetailList)
+        }
     }
 }
 

@@ -20,6 +20,8 @@
 		3C7C4B5C23E28D16003174E6 /* DealerDeatails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B5B23E28D16003174E6 /* DealerDeatails.swift */; };
 		3C7C4B5E23E298F8003174E6 /* NetworkManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B5D23E298F8003174E6 /* NetworkManagerTest.swift */; };
 		3C7C4B6023E29C45003174E6 /* GetCallResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C7C4B5F23E29C45003174E6 /* GetCallResponse.json */; };
+		3C7C4B6223E3B7B5003174E6 /* DealerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B6123E3B7B5003174E6 /* DealerDetailViewModel.swift */; };
+		3C7C4B6423E3CD33003174E6 /* DealerDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C4B6323E3CD33003174E6 /* DealerDetailsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		3C7C4B5B23E28D16003174E6 /* DealerDeatails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDeatails.swift; sourceTree = "<group>"; };
 		3C7C4B5D23E298F8003174E6 /* NetworkManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTest.swift; sourceTree = "<group>"; };
 		3C7C4B5F23E29C45003174E6 /* GetCallResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetCallResponse.json; sourceTree = "<group>"; };
+		3C7C4B6123E3B7B5003174E6 /* DealerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailViewModel.swift; sourceTree = "<group>"; };
+		3C7C4B6323E3CD33003174E6 /* DealerDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				3C7C4B5D23E298F8003174E6 /* NetworkManagerTest.swift */,
 				3C7C4B4823E2880C003174E6 /* Info.plist */,
 				3C7C4B5F23E29C45003174E6 /* GetCallResponse.json */,
+				3C7C4B6323E3CD33003174E6 /* DealerDetailsViewModelTests.swift */,
 			);
 			path = CarDelaerSampleTests;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 		3C7C4B5323E2881D003174E6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3C7C4B6123E3B7B5003174E6 /* DealerDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 			files = (
 				3C7C4B5623E28A56003174E6 /* NetworkManager.swift in Sources */,
 				3C7C4B3423E2880B003174E6 /* DealerListViewController.swift in Sources */,
+				3C7C4B6223E3B7B5003174E6 /* DealerDetailViewModel.swift in Sources */,
 				3C7C4B5C23E28D16003174E6 /* DealerDeatails.swift in Sources */,
 				3C7C4B5A23E28C70003174E6 /* DealerDetailsWebService.swift in Sources */,
 				3C7C4B5823E28AD0003174E6 /* EndPoint.swift in Sources */,
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C7C4B5E23E298F8003174E6 /* NetworkManagerTest.swift in Sources */,
+				3C7C4B6423E3CD33003174E6 /* DealerDetailsViewModelTests.swift in Sources */,
 				3C7C4B4723E2880C003174E6 /* CarDelaerSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

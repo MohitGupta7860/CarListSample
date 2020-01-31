@@ -20,9 +20,9 @@ struct DealerDetailsWebService: DealerDetailsWebservicable {
     }
     
     func getDealerData(completion: @escaping (CarDetails) -> Void ) {
-        session.getApiCall(url: Enpoint().getDealerDetailsEndPoint()) { (data, response, error) in
+        session.getApiCall(url: Enpoint().getDealerDetailsEndPoint()) {
+            (data, response, error) in
             guard let data = data, error == nil else { return }
-            
             let list = try? JSONDecoder().decode(CarDetails.self, from: data)
             if let list =  list {
                 completion(list)
